@@ -1,0 +1,110 @@
+/* <!-- AUTHOR: Matthew Jared -->
+<!-- CLASS: CIS-130-WO1 -->
+<!-- 26th June 2023  --> */
+/* background */
+body {
+    background-image: url(bacground.jpg);
+    z-index: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fffffe ;
+
+}
+
+table {
+    margin: auto;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    width: 80%;
+    padding: 5px;
+    color: white;
+    background: black;
+}
+table, th, td {
+    border: 2px rgb(255, 255, 255) solid;
+    opacity: 85%;
+    text-align: center;
+}
+
+nav {
+    position: sticky;
+    padding: 10px;
+    background-color: rgba(218, 218, 218, 0.807);
+    text-align: center;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+/* nav links */
+a {
+    color: rgb(40, 40, 40);
+    font-size: 30px;
+    padding: 10px;
+    text-decoration-line: none;
+
+}
+
+a:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+
+/* home page container */
+.container {
+    margin: 10px;
+    margin-left: 100px;
+    width: 50%;
+    background-color: rgb(35, 41, 70, .75);
+    padding:25px;
+    border-radius: 5px;
+    text-align: left;
+    margin-bottom: 150px;
+  
+  }
+
+  /* info container */
+  .infocontainer {
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.80);
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+
+  }
+
+  .thankyoucontainer {
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.80);
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 42px;
+
+  }
+
+  p {
+    text-indent: 20px;
+    font-size: 16px;
+    word-spacing: 1px;
+    line-height: 20px;
+  }
+
+  /* the Footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(218, 218, 218, 0.761);
+    color: black;
+    width: 100%;
+    text-align: center;
+    clear: right;
+
+}
